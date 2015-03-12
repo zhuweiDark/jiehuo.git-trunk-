@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DAE0B20A-5C41-4F77-83BE-304805621C2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CMdriverPro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>242588AB-51EE-4689-8B4C-2165B95565D1</key>
+		<string>https://github.com/zhuweiDark/jiehuo.git/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CMdriverPro.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>242588AB-51EE-4689-8B4C-2165B95565D1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>242588AB-51EE-4689-8B4C-2165B95565D1</key>
+		<string>https://gmail.com@github.com/zhuweiDark/jiehuo.git</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://gmail.com@github.com/zhuweiDark/jiehuo.git/trunk/CMdriverPro.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>242588AB-51EE-4689-8B4C-2165B95565D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>242588AB-51EE-4689-8B4C-2165B95565D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jiehuo.git (trunk)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

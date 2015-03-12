@@ -1,0 +1,88 @@
+//
+//  MainViewCtr.m
+//  CMdriverPro
+//
+//  Created by zhuwei on 14-9-11.
+//  Copyright (c) 2014年 zhuwei. All rights reserved.
+//
+
+#import "MainViewCtr.h"
+#import "LoginCtr.h"
+#import "BDPersonCtr.h"
+
+@interface MainViewCtr ()
+
+@end
+
+@implementation MainViewCtr
+
+-(id)init {
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.navigationController.navigationBarHidden = YES;
+    self.view.backgroundColor = [UIColor redColor];
+   
+    NSNumber * loginNum = [[NSUserDefaults standardUserDefaults] objectForKey:LOGIN_KEY] ;
+    
+    if (loginNum && [loginNum isKindOfClass:[NSNumber class]]) {
+        BOOL loginKey = [loginNum boolValue];
+      
+        if (loginKey) {
+            //登录过了显示个人中心
+            [self personViewCtr];
+        }
+        else {
+        
+            [self loginViewCtr];
+            
+        }
+    }
+    else {
+        
+        [self loginViewCtr];
+    }
+    
+    
+}
+- (void) personViewCtr
+{
+    BDPersonCtr * personCtr = [[BDPersonCtr alloc] init];
+    [self.navigationController pushViewController:personCtr
+                                         animated:NO];
+    
+}
+
+- (void) loginViewCtr {
+    //显示登录界面
+    LoginCtr * loginCtr = [[LoginCtr alloc] init];
+    
+    [self.navigationController pushViewController:loginCtr
+                                         animated:NO];
+
+}
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
