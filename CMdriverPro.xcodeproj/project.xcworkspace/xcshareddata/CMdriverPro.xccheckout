@@ -10,44 +10,33 @@
 	<string>CMdriverPro</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0038177763060DD1F40E41B3AB54816743EC45CA</key>
-		<string>https://github.com/zhuweiDark/jiehuo.git-trunk-.git</string>
 		<key>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</key>
-		<string>https://zhuweiDark%40gmail.com@github.com/zhuweiDark/jiehuo.git/trunk</string>
+		<string>https://zhuweiDark%40gmail.com@github.com/zhuweiDark/jiehuo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CMdriverPro.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0038177763060DD1F40E41B3AB54816743EC45CA</key>
-		<string>../..</string>
 		<key>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</key>
-		<string>https://zhuweiDark%40gmail.com@github.com/zhuweiDark/jiehuo.git</string>
-	</dict>
-	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/zhuweiDark/jiehuo.git-trunk-.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0038177763060DD1F40E41B3AB54816743EC45CA</string>
+	<string>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0038177763060DD1F40E41B3AB54816743EC45CA</string>
+			<string>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</string>
 			<key>IDESourceControlWCCName</key>
 			<string>jiehuo.git%20(trunk)</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</string>
 			<key>IDESourceControlWCCName</key>
