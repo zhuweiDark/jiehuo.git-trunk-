@@ -20,6 +20,8 @@
 		<key>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</key>
 		<string>../..</string>
 	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://zhuweiDark%40gmail.com@github.com/zhuweiDark/jiehuo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -28,7 +30,7 @@
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</string>
 			<key>IDESourceControlWCCName</key>
@@ -36,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>bfc679c4-c027-0aa5-8dbf-ce57b7db7bff++505</string>
 			<key>IDESourceControlWCCName</key>
